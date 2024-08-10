@@ -1,14 +1,27 @@
 
 class Question {
 
-    constructor() {
-        this.text = 'question text';
-        this.choices = ['choice 1', 'choice 2', 'choice 3', 'choice 4'];
-        this.answer = 'answer';
+    constructor(text, choices, answer) {
+        this.text = text;
+        this.choices = choices
+        this.answer = answer;
+    }
+
+    correctAnswer(choice) {
+        return choice === this.answer
     }
 
 }
 
-console.log('question is connected');
+const question = new Question('What is the capital of France?', ['Berlin', 'Madrid', 'Paris', 'London'], 'Paris')  
+    
+
+console.log(question.correctAnswer('Berlin')) // false
+
+
+
+
+
+
 
 
