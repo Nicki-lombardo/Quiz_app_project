@@ -1,3 +1,3 @@
-Quiy App project --
+Quiz App project --
 
 HTML / CSS5 / Javascript
