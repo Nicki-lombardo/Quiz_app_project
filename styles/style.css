@@ -68,3 +68,7 @@ h1 {
     cursor: pointer;
     background-color: #fc593c;
 }
+
+#progress {
+    font-size: 18px;
+}
