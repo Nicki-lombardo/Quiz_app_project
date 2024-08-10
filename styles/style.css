@@ -1,3 +1,18 @@
+/* Estilos para iPhone 15 y 15 Pro */
+@media only screen and (width: 393px) and (height: 852px) and (-webkit-device-pixel-ratio: 3) {
+    
+}
+
+
+:root {
+    --aquamarine: aquamarine;
+    --tomato: tomato;
+    --hotpink: hotpink;
+    --blueviolet: blueviolet;
+    --skyblue: skyblue;
+  }
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -10,7 +25,7 @@ html, body {
 
 
 body {
-    background: pink;
+    background: cornflowerblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,4 +46,29 @@ h1 {
     font-size: 3rem;
     text-align: center;
     padding: 2px 0;
+}
+
+#question {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.button {
+    background-color: coral;
+    color: white;
+    width: 250px;
+    font-size:  18px;
+    padding: 10px 20px;
+    margin: 6px 70px 6px;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #fc593c;
+}
+
+#progress {
+    font-size: 18px;
 }
